@@ -30,6 +30,7 @@ class MessageWindow(Window):
         self.buttons.update(mouse_pos)
         
     def draw(self, surface):
+        self.building.draw(surface)
         self.draw_window(surface)
         self.msg.draw(surface)
         self.buttons.draw(surface)

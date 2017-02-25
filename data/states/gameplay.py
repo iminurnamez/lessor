@@ -22,7 +22,7 @@ class Gameplay(tools._State):
                     font_size=28)
         self.bulldozing = False
         self.speed_index = 1
-        self.speeds = [.5, 1, 2, 4]
+        self.speeds = [.5, 1, 2, 4, 8]
         self.speed = self.speeds[self.speed_index]
         self.tutorials = pg.sprite.Group()
         

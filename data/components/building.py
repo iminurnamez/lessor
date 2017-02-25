@@ -168,11 +168,14 @@ class Building(object):
         for floor in self.floors:
             for unit in floor.units:
                 if unit.tenant:
+                    unit.tenant.daily_update()
+                if unit.tenant:
                     unit.lease -= 1
                     if unit.rent_date == self.calendar.day:
                         rent_collected += unit.rent
                     if unit.lease <= 0:
                         unit.tenant.decide_to_stay(unit)
+                    
         player.cash += rent_collected
         self.world.daily_update()
 

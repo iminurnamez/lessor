@@ -109,7 +109,7 @@ class World(object):
                 if u.tenant is None:
                     empty.append(u)
         num_empty = len(empty)
-        if num_empty and (random() <= .15):
+        if num_empty and (random() <= .05):
             visitor_type = choice(self.sign_pool)
             self.generate_visitor(visitor_type, "Yard Sign")
         for paper in self.newspapers:
@@ -145,65 +145,39 @@ class Tenant(pg.sprite.Sprite):
         self.happiness = 50
         
     def decide_to_stay(self, unit):
+        unit.rent = unit.next_rent
         quality = unit.get_quality_score(self.monster_type)
         fair_rent = unit.get_fair_rent(self.monster_type)
         qual_score = quality / float(self.expected_quality)
         price_score = fair_rent / float(unit.rent)
         total = (qual_score * .6) + (price_score * .4)
         if unit.rent > self.rent_limit:
-            high = unit.rent / float(self.rent_limit)
-            sentiments = [
-                    (2, "Absurd Rent"), 
-                    (1.5, "Very High Rent")]
-            for num, s in sentiments:
-                if high >= num:
-                    sentiment = s
-                    break
-            else:
-                sentiment = "High Rent"            
-            self.add_sentiment(sentiment, unit.unit_num)
             self.vacate()
-            return
+            return False
         if quality < self.quality_floor:
-            low = quality / float(self.quality_floor)
-            sentiments = [
-                    (.5, "Abysmal Quality"),
-                    (.75, "Poor Quality")]
-            for num, s in sentiments:
-                if low <= num:
-                    sentiment = s
-                    break
-                else:
-                    sentiment = "Low Quality"
-            self.add_sentiment("Low Quality", unit.unit_num)
             self.vacate()
             return False
         
         success = total >= uniform(0, 2)
         if success:
-            if qual_score * .6 >= price_score * .4:
-                self.add_sentiment("Quality Rental", unit.unit_num)
-            else:
-                self.add_sentiment("Price Rental", unit.unit_num)
-            lease_length = (qual_score * .6) + (price_score * .4)
-            self.resign_lease(unit)
-            
+            self.resign_lease()
+            return True
         else:
-            self.add_sentiment("Random Refusal", unit.unit_num)
-    
-    def vacate(self, unit):
-        unit.tenant = None
-        self.kill()
+            self.vacate()
+            return False
+            
+    def vacate(self):
+        self.unit.tenant = None
         
-    def resign_lease(self, unit):
-        unit.lease = 365
+    def resign_lease(self):
+        self.unit.lease = 365
         
     def daily_update(self):
         old = self.happiness
-        quality = unit.get_quality_score(self.monster_type)
-        fair_rent = unit.get_fair_rent(self.monster_type)
+        quality = self.unit.get_quality_score(self.monster_type)
+        fair_rent = self.unit.get_fair_rent(self.monster_type)
         qual_score = quality / float(self.expected_quality)
-        price_score = fair_rent / float(unit.rent)
+        price_score = fair_rent / float(self.unit.rent)
         total = (qual_score * .6) + (price_score * .4)
         self.happiness = total * 25
         if self.happiness < 0:

@@ -25,9 +25,9 @@ class UnitInfoWindow(Window):
     def __init__(self, building, player, unit):
         super(UnitInfoWindow, self).__init__(building, player)
         self.unit = unit
-        self.make_buttons()
         self.tenant_rect = pg.Rect(0, 0, 68, 120)
         self.tenant_rect.midtop = (self.rect.centerx, self.rect.top + 128)
+        self.make_buttons()
         self.timer = 0
         self.click_time = 125
 
@@ -43,7 +43,10 @@ class UnitInfoWindow(Window):
     def make_buttons(self):
         self.buttons = ButtonGroup()
         self.labels = pg.sprite.Group()
-
+        if self.unit.tenant:
+            Label("Happiness {}".format(int(self.unit.tenant.happiness)),
+                    {"midtop": (self.rect.centerx, self.tenant_rect.bottom)},
+                    self.labels, font_size=14)
         Label("Unit {}".format(self.unit.unit_num),
                 {"midtop": (self.rect.centerx, self.rect.top + 8)},
                 self.labels, font_size=24)
@@ -80,7 +83,7 @@ class UnitInfoWindow(Window):
                                                         idle_image=idle, hover_image=hover,
                                                         button_size=(w, h))   #call=self.lower_rent,
 
-        top = self.rect.top + 256
+        top = self.rect.top + 288
         idle, hover = self.make_button_images("Buy Wallpaper", "large", 16)
         w, h = idle.get_size()
         Button((self.rect.centerx-(w//2), top), self.buttons,
