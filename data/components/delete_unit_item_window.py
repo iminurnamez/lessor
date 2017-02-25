@@ -56,4 +56,4 @@ class DeleteUnitItemWindow(Window):
         self.building.draw(surface)
         self.draw_window(surface)
         self.buttons.draw(surface)
-        self.lalbels.draw(surface)
+        self.labels.draw(surface)
