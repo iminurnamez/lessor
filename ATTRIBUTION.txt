@@ -1,0 +1,246 @@
+LICENSES
+
+CC0                  https://creativecommons.org/publicdomain/zero/1.0/legalcode
+CC-BY-3.0         https://creativecommons.org/licenses/by/3.0/legalcode
+CC-BY-SA 2.0    https://creativecommons.org/licenses/by-sa/2.0/legalcode
+CC-BY-SA 3.0    https://creativecommons.org/licenses/by-sa/3.0/legalcode 
+CC-BY-SA 4.0    https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+CODE
+
+Code is released under a CC0 license.
+
+
+FONTS
+Portmanteau Regular
+Source: http://www.dafont.com/portmanteau.font?l[]=10
+Creator: JLH Fonts http://www.dafont.com/profile.php?user=362180&l[]=10
+License: Public Domain
+
+
+Weblysleek
+Source: http://www.dafont.com/weblysleek-ui.font?l[]=10
+License: OFL (Open Font License)
+
+
+MUSIC
+
+The Crypt
+Source: http://opengameart.org/content/the-crypt
+Creator:  Michael Klier  http://opengameart.org/users/michael-klier http://www.m-klier.de/
+License: CC-BY-SA 3.0
+
+Wrong Rite Theme
+"Wrong Rite Theme" by Pierre Bondoerffer (@pbondoer)
+Source: http://opengameart.org/content/wrong-rite-theme
+Creator: Pierre Bondoerffer http://opengameart.org/users/pbondoer http://bondoer.fr/
+License: CC-BY-SA 3.0
+
+13marilynT
+Created by Lantz Minatus aka Lantz Eerie
+Source: http://opengameart.org/content/eerie-curious-music
+Creator: Lantz Eerie http://opengameart.org/users/leerie
+License: CC-BY 3.0
+
+
+WTF! Ghost!
+Source: http://opengameart.org/content/wtf-ghost
+Creator: Alexandr Zhelanov https://soundcloud.com/alexandr-zhelanov http://opengameart.org/users/alexandr-zhelanov
+License: CC-BY 3.0
+
+
+GRAPHICS
+
+peeling wallpaper
+Source: https://pixabay.com/en/wall-background-wallpaper-697851/
+Creator: 
+License: CC0
+
+fancy wallpaper
+Source: https://pixabay.com/en/wallpaper-wall-art-art-architecture-1254101/
+Creator: 
+License: CC0
+
+mirror
+Source: http://opengameart.org/content/wall-with-mirror
+Creator: Tracy http://opengameart.org/users/tracy
+License: CC-BY 3.0
+
+sarcophagus, torture table
+Torture table and/or sargophagi made by Tuomo Untinen
+Source: http://opengameart.org/content/dungeon-stuff-tombs-and-torture-table
+Creator: Tuomo Untinen http://opengameart.org/users/reemax
+License: CC-BY 3.0
+
+baby in a jar
+Source: https://pixabay.com/en/halloween-doll-haunted-doll-1785005/
+Creator: Amber Avalona https://pixabay.com/en/users/AmberAvalona-1512238/
+License: CC0
+
+radioactive waste
+Source: https://pixabay.com/en/nuclear-waste-radioactive-trash-1471361/
+Creator: Dirk Rabe https://pixabay.com/en/users/rabedirkwennigsen-578324/
+License: CC0
+
+fridge
+Source: http://opengameart.org/content/kitchen-assets-for-letscookjam
+Creator: Bluerobin2 http://opengameart.org/users/bluerobin2
+License: CC-BY 3.0
+
+spiderweb
+Source: http://www.clipartlord.com/2016/06/16/free-spider-web-clip-art-5/
+Creator: 
+License: CC0
+
+soiling machine
+Source: https://pixabay.com/en/washing-machine-wash-cleaning-2069685/
+Creator: 
+License: CC0
+
+flytrap
+Source: https://pixabay.com/en/insect-venus-fly-trap-plant-1535990/
+Creator: 
+License: CC0
+
+candleabra, candle, cage, crystal ball, noose, gargoyle, mushrooms
+Source: http://opengameart.org/content/misc-dark-fantasy-scenery-sprites
+Creator: Gwes http://opengameart.org/users/gwes
+License: CC0
+
+trees
+Source: http://opengameart.org/content/haunted-forest-trees
+Creator: Gwes http://opengameart.org/users/gwes
+License: CC0
+
+ouija board
+Source: https://www.flickr.com/photos/scriptingnews/3418293087
+Creator: Dave Winer https://www.flickr.com/photos/scriptingnews/
+License: CC-BY-SA 2.0
+
+ivstand
+Source: https://pixabay.com/en/aphon-chat-bag-healthcare-holder-2023186/
+Creator: Open Clipart Vectors https://pixabay.com/en/users/OpenClipart-Vectors-30363/
+License: CC0
+
+chandelier
+Source: http://www.clipartlord.com/2013/04/10/free-vintage-chandelier-clip-art/
+Creator: 
+License: CC0
+
+fancy fireplace
+Source: https://commons.wikimedia.org/wiki/File:Adams_fireplace_in_Strawberry_Hill_House.JPG
+Creator: Jonathan Cardy https://commons.wikimedia.org/wiki/User:Jonathan_Cardy
+License: CC-BY-SA 3.0
+
+stone fireplace
+Source: https://pixabay.com/en/fireplace-brick-stone-grey-gray-575989/
+Creator: Open Clipart Vectors https://pixabay.com/en/users/OpenClipart-Vectors-30363/
+License: CC0
+
+bookcase
+Source: http://www.clipartlord.com/2016/02/05/free-bookshelf-clip-art-4/
+Creator: 
+License: CC0
+
+electric chair
+Source: https://simple.wikipedia.org/wiki/File:New_Mexico%27s_only_electric_chair_(11501318174).jpg
+Creator: Ken Piorkowski
+License: CC-BY-SA 2.0
+
+mortar and pestle
+Source: https://pixabay.com/en/old-mortar-pestle-brass-metal-1693901/
+Creator: Grzegorz Skibka https://pixabay.com/en/users/Grzegorz-Skibka-2280593/
+License: CC0
+
+
+closet
+Source: https://pixabay.com/en/cupboard-wooden-storage-cabinet-575354/
+Creator: Open Clipart Vectors https://pixabay.com/en/users/OpenClipart-Vectors-30363/
+License: CC0
+
+broom
+Source: https://pixabay.com/en/broom-cleaning-is-write-clean-up-1428449/
+Creator: Sangjun Oh https://pixabay.com/en/users/JJuni-27151/
+License: CC0
+
+altar
+Source: http://www.clipartlord.com/2016/04/12/free-altar-clip-art/
+Creator: 
+License: CC0
+
+throne
+Source: https://pixabay.com/en/armchair-chair-furniture-seat-1498671/
+Creator: 
+License:
+
+Bone China
+Source: https://commons.wikimedia.org/wiki/File:Ming_plate_15th_century_Jingdezhen_kilns_Jiangxi.jpg
+Creator: World Imaging https://commons.wikimedia.org/wiki/User:PHGCOM
+License: CC-BY-SA 3.0
+
+stained glass
+Source: https://pixabay.com/en/stained-glass-stained-glass-church-1783297/
+Creator: Darren Danks https://pixabay.com/en/users/dazweb-785352/
+License:
+
+street, sidewalk
+Source: http://opengameart.org/content/abandon-city-seamless-background
+Creator: 
+License:
+
+grass
+Source: http://opengameart.org/content/tower-defense-grass-background 
+Creator: http://opengameart.org/users/hassekf
+License: CC0
+
+gravestone
+Source: https://pixabay.com/en/tombstone-cemetery-dead-death-1626467/
+Creator: Jan https://pixabay.com/en/users/janjf93-3084263/
+License: CC0
+
+bulldozer
+Source: http://www.clipartlord.com/wp-content/uploads/2013/10/bulldozer3.png
+Creator:
+License: CC0
+
+crane
+Source: http://www.clipartlord.com/wp-content/uploads/2013/03/crane.png
+Creator: 
+License: CC0
+
+laboratory
+Source: http://www.clipartlord.com/2016/06/22/free-chemistry-laboratory-clip-art/
+Creator: 
+License: CC0
+
+oven
+Source: https://pixabay.com/en/pizza-oven-pizza-oven-979519/
+Creator: Patrick Kohler https://pixabay.com/en/users/rhein28-503725/
+License: CC0
+
+ghoul hand
+Source: http://opengameart.org/content/ghoul-hand
+Creator: Jeremias Konig http://opengameart.org/users/derwisch
+License: CC0
+
+thumbs up
+Source: http://www.clipartlord.com/2016/07/18/free-green-thumbs-clip-art/
+Creator: 
+License: CC0
+
+star
+Source: https://commons.wikimedia.org/wiki/File:Quality_Barnstar_v2.0.png
+Creator: Agnelus https://commons.wikimedia.org/wiki/User:ANGELUS
+License: CC-BY-SA 3.0
+
+smileys
+Source: https://pixabay.com/en/comic-comic-characters-emotion-evil-2026748/
+            https://pixabay.com/en/comic-characters-depressed-emotion-2026645/
+            https://pixabay.com/en/comic-comic-characters-emotion-face-2026751/            
+Creator: Open Clipart Vectors https://pixabay.com/en/users/OpenClipart-Vectors-30363/
+License: CC0
+
+newspaper clipping
+Source: https://www.flickr.com/photos/engineroomblog/2456579416
+Creator: JD https://www.flickr.com/photos/engineroomblog/
+License: CC-BY-SA 2.0
