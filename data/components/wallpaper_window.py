@@ -22,6 +22,8 @@ class WallpaperWindow(Window):
                 self.labels, font_size=24)
         top = self.rect.top + 48
         for name in WALLPAPER_INFO:
+            if name == "Default":
+                continue
             idle, hover = self.make_button_images(name, "large", 16)
             w, h = idle.get_size()
             Button((self.rect.centerx-(w//2), top), self.buttons,

@@ -60,6 +60,7 @@ LANDSCAPE_ITEMS = {
 
 WALLPAPER_INFO = {
         "Peeling": [                 "Wallpaper",            5,                [0,     0,      0,         0,          0,         0,          2,       2,        0],       50,   ""],
+        "Default": [                 "Wallpaper",            0,                [0,     0,      0,         0,          0,         0,          0,       0,        0],       50,   ""],
         "Padded": [                 "Wallpaper",            5,                [0,     0,      0,         0,          5,         0,          0,       0,        0],       50,   ""],
         "Fancy Blue": [            "Wallpaper",            10,              [0,     5,      5,         5,          0,         0,          0,       0,        0],       100,   ""],
         "Fancy Red": [             "Wallpaper",            10,              [5,     0,      0,         0,          0,         0,          0,       0,        0],       100,   ""],

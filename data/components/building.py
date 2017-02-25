@@ -350,7 +350,7 @@ class Unit(object):
         self.tenant = None
         self.tenant_rect = pg.Rect(0, 0, 68, 116)
         self.tenant_rect.midbottom = self.rect.midbottom
-        self.wallpaper = Wallpaper("Fancy Blue")
+        self.wallpaper = Wallpaper("Default")
         self.frame = prepare.GFX["roomframe-{}".format(self.unit_size)]
         self.make_item_slots()
         self.rent = self.next_rent = self.get_fair_rent()
